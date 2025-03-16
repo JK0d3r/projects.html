@@ -15,10 +15,10 @@
 
         /* 2. White navbar at the top */
         nav {
-            background-color: white;
+            background-color: rgb(235, 235, 235);
             display: flex;
             justify-content: center;
-            padding: 10px;
+            padding: 12px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
 
@@ -26,7 +26,7 @@
         nav a {
             text-decoration: none;
             color: #808080; /* Grayish text */
-            margin: 0 20px;
+            margin: 30px;
             font-size: 16px;
         }
 
@@ -55,6 +55,9 @@
             max-width: 600px;
             margin: 0 auto;
         }
+        .container {
+            text-align: center; /* Centers the image inside the container */
+        }
     </style>
 </head>
 <body>
@@ -62,7 +65,7 @@
     <!-- 2. Navbar -->
     <nav>
         <a href="#" class="active">Home</a>
-        <a href="#">Pokémon</a>
+        <a href="Pokémon.html">Pokémon</a>
         <a href="#">Items</a>
         <a href="#">Gyms</a>
         <a href="#">Typing</a>
@@ -71,8 +74,10 @@
     <!-- 3. Centered header and paragraph -->
     <header>
         <h1>Welcome to Pokébase</h1>
-        <p>Here you can add some text about your website. This can be an introduction or anything else you'd like to share with visitors.</p>
+        <p>Welcome to Pokébase! This is the website where you can find everything you need about Pokémon. For now, it is still a WIP, but new info will be added soon...</p>
     </header>
-
+    <div class="container">
+        <img src="https://i.ytimg.com/vi/ccOwy2ahKvE/hqdefault.jpg" alt="Left Image">
+    </div>
 </body>
 </html>
